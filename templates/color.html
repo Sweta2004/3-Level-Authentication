@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\susindra\OneDrive\Desktop\ISM\new 3levelAuth\1.secure_file_storage\static\styles.css">
+    <title>Color Selection</title>
+</head>
+<body>
+    <h1>Color Selection</h1>
+    <!-- Color selection form --><!--
+    <form action="{{ url_for('color') }}" method="POST">
+        <img src="https://about.canva.com/wp-content/uploads/sites/8/2019/03/green.png" alt="Green Image">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACgCAMAAADpVSNoAAAAA1BMVEUAAP+KeNJXAAAAQ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg2yIAAB+R0FCwAAAABJRU5ErkJggg==" alt="Image 2">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACgCAMAAADpVSNoAAAAA1BMVEX/AAAZ4gk3AAAAQ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg2yIAAB+R0FCwAAAABJRU5ErkJggg==" alt="Image 3">
+        <input type="text" name="color" placeholder="Color" required><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Selection</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; box-sizing: border-box;">
+    <h1 style="text-align: center;">Color Selection</h1>
+    <!-- Color selection form -->
+    <form action="{{ url_for('color') }}" method="POST" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
+            <img src="https://about.canva.com/wp-content/uploads/sites/8/2019/03/green.png" alt="Green Image" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACgCAMAAADpVSNoAAAAA1BMVEUAAP+KeNJXAAAAQ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg2yIAAB+R0FCwAAAABJRU5ErkJggg==" alt="Image 2" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACgCAMAAADpVSNoAAAAA1BMVEX/AAAZ4gk3AAAAQ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg2yIAAB+R0FCwAAAABJRU5ErkJggg==" alt="Image 3" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+        </div>
+        <input type="text" name="color" placeholder="Color" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;">
+        <input type="submit" value="Login" style="width: 100%; padding: 8px; background-color: #007bff; border: none; border-radius: 3px; color: #fff; font-size: 16px; cursor: pointer;">
+    </form>
+</body>
+</html>
+

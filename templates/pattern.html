@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\susindra\OneDrive\Desktop\ISM\new 3levelAuth\1.secure_file_storage\static\styles.css">
+    <title>Pattern Selection</title>
+</head>
+<body>
+    <h1>Pattern Selection</h1>
+    <!-- Pattern selection form --><!--
+    <form action="{{ url_for('pattern') }}" method="POST">
+        <img src="https://media.istockphoto.com/id/1496673625/vector/blue-abstract-background-with-blue-glowing-diagonal-rounded-lines-modern-shiny-geometric.jpg?s=1024x1024&w=is&k=20&c=f7L9Mo7hdedcRKoMJdh2KC_w1uE-x1PV9RvMUlcCIws=" alt="Pattern 1">
+            <img src="https://media.istockphoto.com/id/1449439739/vector/vector-seamless-pattern-with-concentric-circles-geometric-abstract-background.jpg?s=1024x1024&w=is&k=20&c=HkObPNPSUg5cUdbcPOGt6NGiYYjhoA7irS_gd9w69xo=" alt="Pattern 2">
+            <img src="https://media.istockphoto.com/id/1199291148/vector/abstract-bright-white-background-geometric-texture.jpg?s=1024x1024&w=is&k=20&c=wmWJZJR2Ng1vX32-dUGUbHbL3FmGbQmAZpE6kxhoZwc=" alt="Pattern 3">
+            <img src="https://media.istockphoto.com/id/1253095828/vector/seamless-pattern.jpg?s=1024x1024&w=is&k=20&c=AsQon8vFRH6pHVPzXe4XwI0ZbE0lV9lWY72tp-Mimos=" alt="Pattern 4">
+            <img src="https://img.freepik.com/free-vector/w-colours-pattern-design-template_23-2149844823.jpg?size=338&ext=jpg&ga=GA1.1.34264412.1713225600&semt=sph" alt="Pattern 5">
+        <input type="text" name="pattern" placeholder="Pattern" required><br>
+        <input type="submit" value="Next">
+    </form>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Selection</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; box-sizing: border-box;">
+    <h1 style="text-align: center;">Pattern Selection</h1>
+    <!-- Pattern selection form -->
+    <form action="{{ url_for('pattern') }}" method="POST" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; justify-content: center;">
+            <img src="https://media.istockphoto.com/id/1496673625/vector/blue-abstract-background-with-blue-glowing-diagonal-rounded-lines-modern-shiny-geometric.jpg?s=1024x1024&w=is&k=20&c=f7L9Mo7hdedcRKoMJdh2KC_w1uE-x1PV9RvMUlcCIws=" alt="Pattern 1" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="https://media.istockphoto.com/id/1449439739/vector/vector-seamless-pattern-with-concentric-circles-geometric-abstract-background.jpg?s=1024x1024&w=is&k=20&c=HkObPNPSUg5cUdbcPOGt6NGiYYjhoA7irS_gd9w69xo=" alt="Pattern 2" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="https://media.istockphoto.com/id/1199291148/vector/abstract-bright-white-background-geometric-texture.jpg?s=1024x1024&w=is&k=20&c=wmWJZJR2Ng1vX32-dUGUbHbL3FmGbQmAZpE6kxhoZwc=" alt="Pattern 3" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="https://media.istockphoto.com/id/1253095828/vector/seamless-pattern.jpg?s=1024x1024&w=is&k=20&c=AsQon8vFRH6pHVPzXe4XwI0ZbE0lV9lWY72tp-Mimos=" alt="Pattern 4" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+            <img src="https://img.freepik.com/free-vector/w-colours-pattern-design-template_23-2149844823.jpg?size=338&ext=jpg&ga=GA1.1.34264412.1713225600&semt=sph" alt="Pattern 5" style="width: 150px; height: 100px; object-fit: cover; margin: 5px;">
+        </div>
+        <input type="text" name="pattern" placeholder="Pattern" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;">
+        <input type="submit" value="Next" style="width: 100%; padding: 8px; background-color: #007bff; border: none; border-radius: 3px; color: #fff; font-size: 16px; cursor: pointer;">
+    </form>
+</body>
+</html>
